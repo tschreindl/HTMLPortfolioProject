@@ -1,37 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <title>HTML Portfolio</title>
 </head>
 <body>
 
-  <div class="header">
-    <h1>Tim</h1>
-    <h2>software developer</h2>
-  </div>
+<div class="header">
+    <h1>Tim Schreindl</h1>
+    <h2>Software Developer at CN-Consult GmbH</h2>
+</div>
 
-  <div class="tagline">
-    <h3>Here you can learn something about me</h3>
-    <p>I like programming with PHP, Java, HTML, ...</p>
-  </div>
+<div class="navigation-left">
+    <p>Learn more about:</p>
+    <p><a href="http://www.cn-consult.eu/">CN-Consult</a></p>
+    <p><a href="https://github.com/">GitHub</a></p>
+    <p><a href="https://www.codeschool.com/">Code School</a></p>
+    <p><a href="https://www.codecademy.com/">Codecademy</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Computer_programming">Programming</a></p>
+</div>
 
-  <div class="skills">
+<div class="navigation-right">
+    <p>My Projects:</p>
+    <p><a href="https://github.com/tschreindl/Game-of-Life">Game of Life</a></p>
+    <p><a href="https://github.com/tschreindl/HTMLPortfolioProject">This Portfolio</a></p>
+    <p>Number System Calculator</p>
+    <p>Functional equation<br/>tool</p>
+</div>
+
+<div class="information">
+    <p>About Me:</p>
+    <div class="mypic">
+        <img src="../pic/me.jpg"/>
+    </div>
+    <p>Tim Schreindl</p>
+    <p>21 Years Old</p>
+    <p>Hesse</p>
+    <p>Germany</p>
+    <p>Software Developer</p>
+</div>
+
+<div class="tools">
+    <p>Useful tools:</p>
+    <p><a href="https://www.jetbrains.com/phpstorm/">PHPStorm</a></p>
+    <p><a href="https://desktop.github.com/">GitHub Desktop</a></p>
+    <p><a href="https://atom.io/">Atom Editor</a></p>
+    <p><a href="https://developer.android.com/studio/index.html">Android Studio</a></p>
+    <p><a href="https://notepad-plus-plus.org/">Notepad ++</a></p>
+</div>
+
+<div class="social-media">
+    <p><span class="like">Do you like my page?</span></p>
+    <p>Leave a &#x1F44D; on:</p>
+    <a href="https://www.facebook.com/"><img src="../pic/fb.png" alt="Facebook Icon"/></a>
+    <a href="https://www.instagram.com/"><img src="../pic/insta.png" alt="Instagram Icon"/></a>
+    <a href="https://twitter.com/"><img src="../pic/twitter.png" alt="Twitter Icon"/></a>
+</div>
+
+<div class="tagline">
+    <h3>Here you can read something about me:</h3>
+    <p>Hi my name is Tim!</p>
+    <p>I am an apprentice at CN-Consult GmbH.</p>
+    <p>I like my work and learn new things every day.</p>
+    <p>I like programming with <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>, <a
+            href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>, <a
+            href="https://en.wikipedia.org/wiki/HTML">HTML</a>, ...</p>
+    <img src="../pic/php.png" alt="PHP Logo"/>
+    <img src="../pic/java.jpg" alt="Java Logo"/>
+    <img src="../pic/html.png" alt="HTML Logo"/>
+</div>
+
+<div class="skills">
     <h3>My Skills:</h3>
-    <p>I like programming with the following languages</p>
+    <p>I like programming with the following languages:</p>
     <ul>
-      <li>CSS</li>
-      <li>HTML</li>
-      <li>Java</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>AutoIt</li>
     </ul>
-  </div>
+    <details>
+        <summary>Click to see my codeschool badges</summary>
+        <div id="badges"></div>
+    </details>
+</div>
 
-  <div class="contact">
+<div class="contact">
     <h3>Feel free to contact me!</h3>
-    <p>Contact me via Email on example@mail.com or visit my <a href="https://github.com/tschreindl">GitHub Profile</a></p>
-  </div>
-
+    <p>Contact me via <a href="mailto:example@mail.com">Email</a> or visit my <a href="https://github.com/tschreindl">GitHub
+        Profile</a></p>
+</div>
 </body>
 </html>

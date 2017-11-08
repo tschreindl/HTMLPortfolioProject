@@ -1,0 +1,156 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+body h3 {
+    text-decoration: underline;
+}
+
+body a:link, a:visited {
+    color: darkblue;
+}
+
+body a:hover {
+    color: orangered;
+}
+
+details {
+    margin: auto;
+}
+
+.header {
+    background: url("../pic/head.jpg");
+    font-style: italic;
+    color: red;
+    padding: 15px 0 15px 0;
+    font-size: 30px;
+    margin: 0 auto 10px;
+    text-align: center;
+    text-shadow: 3px 2px black;
+}
+
+.navigation-left {
+    border-radius: 10px;
+    float: left;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 9px;
+    text-align: center;
+}
+
+.navigation-right {
+    border-radius: 10px;
+    float: right;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.information {
+    border-radius: 10px;
+    float: right;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 9px;
+    text-align: center;
+    clear: both;
+}
+
+.tools {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 200px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social-media {
+    border-radius: 10px;
+    float: left;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 9px;
+    text-align: center;
+    clear: left;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    padding: inherit;
+    margin-right: 5px;
+    transition-duration: 1000ms;
+}
+
+.social-media a img:hover {
+    transform: scale(1.4) rotate(360deg);
+    transition-duration: 1000ms;
+}
+
+.social-media .like {
+    font-weight: bold;
+}
+
+.information img {
+    border: solid;
+    width: 150px;
+    height: 150px;
+}
+
+.mypic {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.tagline, .skills, .contact {
+    border-radius: 5px;
+    margin: 0 220px 10px 220px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+.skills ul li {
+    list-style-type: square;
+}
+
+.tagline img:first-of-type, img:nth-of-type(2) {
+    height: 10%;
+    width: 10%;
+    padding-right: 100px;
+}
+
+.tagline img:nth-of-type(3) {
+    height: 6%;
+    width: 6%;
+    padding-right: 100px;
+}
+
+#badges {
+    text-align: center;
+    font-size: 50%;
+}
+
+.course {
+    border-radius: 5px;
+    background-color: slateblue;
+    padding: 50px 20px;
+    border: solid white;
+    margin: 30px;
+    display: inline-block;
+}
+
+.course img {
+    margin-top: 30px;
+    width: 160px;
+    height: 160px;
+}
